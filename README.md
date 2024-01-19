@@ -1,57 +1,25 @@
-# Ant Design Pro
+# 用户中心系统
+企业中最常用基于 Spring Boot + React的一站式用户管理系统，实现了用户注册、登录、查询、管理等基础功能。
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+## 技术选型
+### 前端
+1. HTML + CSS + JavaScript 三件套
+2. React 开发框架
+3. Ant Design Pro 项目模板
+4. Ant Design 端组件库
+5. Umi 开发框架
+6. Umi Request 请求库
+7. 正向和反向代理
 
-## Environment Prepare
+### 后端
+1. Java 编程语言
+2. Spring + SpringMVC + SpringBoot 框架
+3. MyBatis + MyBatis Plus 数据访问框架
+4. MySQL 数据库
+5. JUnit 单元测试库
 
-Install `node_modules`:
+### 系统首页
+![User Center System Homepage](https://github.com/songyy5517/user-center-backend/blob/main/assets/homepage.png?raw=true)
 
-```bash
-npm install
-```
-
-or
-
-```bash
-yarn
-```
-
-## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
-### Start project
-
-```bash
-npm start
-```
-
-### Build project
-
-```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+### 注册界面
+![User Center System Register](https://github.com/songyy5517/user-center-backend/blob/main/assets/register.png?raw=true)
